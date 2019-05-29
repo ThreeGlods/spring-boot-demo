@@ -4,8 +4,8 @@ import com.example.springbootdemo.bean.Book;
 import com.example.springbootdemo.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PathVariable;
 
+import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
 
@@ -53,9 +53,29 @@ public class BookBusiness {
     public List<Book> findByDescriptionContains(String description){
         return bookService.findByDescriptionContains(description);
     }
-
+/*
+* 根据自定义查询
+* */
     public List<Book> findByJPQL(int len){
+
         return bookService.findByJPQL(len);
+    }
+
+    /*
+     * 自定义更新
+     * */
+
+    @Transactional
+    public int updateByJPQL(int status,long id){
+        return bookService.updateByJPQL(status,id);
+    }
+
+    /*
+    * 自定义删除
+    * */
+    @Transactional
+    public int deleteByJPQL(long id){
+        return bookService.deleteByJPQL(id);
     }
 
 }

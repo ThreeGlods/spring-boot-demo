@@ -6,6 +6,7 @@ import com.example.springbootdemo.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
 
@@ -18,8 +19,13 @@ public class BookApp {
 //    获取读书清单列表
     @GetMapping("/books")
     public List<Book> getAll(){
+
         return bookService.findAll();
     }
+    /*
+    * 添加一个书单
+    * */
+
     @PostMapping("/books")
     public Book post(Book book){
 
@@ -100,5 +106,20 @@ public class BookApp {
     ){
         return bookService.findByJPQL(len);
     }
+
+    @Transactional
+    @PostMapping("/books/by6")
+    public int updateByJPQL(@RequestParam int status,@RequestParam long id
+    ){
+        return bookService.updateByJPQL(status,id);
+    }
+
+    @Transactional
+    @PostMapping("/books/by7")
+    public int deleteByJPQL(@RequestParam long id
+    ){
+        return bookService.deleteByJPQL(id);
+    }
+
 
 }
