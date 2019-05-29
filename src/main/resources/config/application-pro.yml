@@ -1,0 +1,11 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /
+
+
+logging:
+  level:
+    root: warn
+    com.example: info
+  file: logs/my.log
