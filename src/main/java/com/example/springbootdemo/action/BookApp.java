@@ -1,6 +1,4 @@
 package com.example.springbootdemo.action;
-
-
 import com.example.springbootdemo.bean.Book;
 import com.example.springbootdemo.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,18 +14,17 @@ public class BookApp {
     @Autowired
     private BookService bookService;
 
-//    获取读书清单列表
+    //    获取读书清单列表
     @GetMapping("/books")
-    public List<Book> getAll(){
-
+    public List<Book> getAll() {
         return bookService.findAll();
     }
     /*
-    * 添加一个书单
-    * */
+     * 添加一个书单
+     * */
 
     @PostMapping("/books")
-    public Book post(Book book){
+    public Book post(Book book) {
 
        /* Book book = new Book();
         book.setName(name);
@@ -37,18 +34,19 @@ public class BookApp {
         */
         return bookService.save(book);
     }
-/*
-* 获取一条书单信息
-* */
+
+    /*
+     * 获取一条书单信息
+     * */
     @GetMapping("/books/{id}")
 
-    public Optional<Book> getOne(@PathVariable long id){
+    public Optional<Book> getOne(@PathVariable long id) {
 
         return bookService.findById(id);
     }
-/*
-* 更新一个书单
-* */
+    /*
+     * 更新一个书单
+     * */
 
 
     @PutMapping("/books")
@@ -58,7 +56,7 @@ public class BookApp {
             @RequestParam String author,
             @RequestParam String description,
             @RequestParam int status
-    ){
+    ) {
         Book book = new Book();
         book.setId(id);
         book.setName(name);
@@ -69,55 +67,55 @@ public class BookApp {
     }
 
     /*
-    * 删除一个书单
-    * */
+     * 删除一个书单
+     * */
 
     @DeleteMapping("/books/{id}")
-    public  void deleteOne(@PathVariable long id){
+    public void deleteOne(@PathVariable long id) {
         bookService.deleteById(id);
     }
 
     @PostMapping("/books/by")
-    public List<Book> findByAuthor(@RequestParam String author){
+    public List<Book> findByAuthor(@RequestParam String author) {
         return bookService.findByAuthor(author);
     }
 
     @PostMapping("/books/by2")
     public List<Book> findByAuthorAndStatus(@RequestParam String author,
                                             @RequestParam int status
-                                            ){
-        return bookService.findByAuthorAndStatus(author,status);
+    ) {
+        return bookService.findByAuthorAndStatus(author, status);
     }
 
     @PostMapping("/books/by3")
     public List<Book> findByDescriptionEndsWith(@RequestParam String description
-    ){
+    ) {
         return bookService.findByDescriptionEndsWith(description);
     }
 
     @PostMapping("/books/by4")
     public List<Book> findByDescriptionContains(@RequestParam String description
-    ){
+    ) {
         return bookService.findByDescriptionContains(description);
     }
 
     @PostMapping("/books/by5")
     public List<Book> findByJPQL(@RequestParam int len
-    ){
+    ) {
         return bookService.findByJPQL(len);
     }
 
     @Transactional
     @PostMapping("/books/by6")
-    public int updateByJPQL(@RequestParam int status,@RequestParam long id
-    ){
-        return bookService.updateByJPQL(status,id);
+    public int updateByJPQL(@RequestParam int status, @RequestParam long id
+    ) {
+        return bookService.updateByJPQL(status, id);
     }
 
     @Transactional
     @PostMapping("/books/by7")
     public int deleteByJPQL(@RequestParam long id
-    ){
+    ) {
         return bookService.deleteByJPQL(id);
     }
 

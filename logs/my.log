@@ -1,0 +1,105 @@
+2019-05-29 10:38:07.376  INFO 21664 --- [main] c.e.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on 井鑫-YWB with PID 21664 (C:\Users\Administrator\IdeaProjects\spring-boot-demo\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\spring-boot-demo)
+2019-05-29 10:38:07.378 DEBUG 21664 --- [main] c.e.s.SpringBootDemoApplication          : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 10:38:07.379  INFO 21664 --- [main] c.e.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2019-05-29 10:38:08.593  INFO 21664 --- [main] c.e.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.467 seconds (JVM running for 1.924)
+2019-05-29 10:38:57.783  INFO 20908 --- [main] c.e.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on 井鑫-YWB with PID 20908 (C:\Users\Administrator\IdeaProjects\spring-boot-demo\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\spring-boot-demo)
+2019-05-29 10:38:57.785 DEBUG 20908 --- [main] c.e.s.SpringBootDemoApplication          : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 10:38:57.785  INFO 20908 --- [main] c.e.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2019-05-29 10:38:59.005  INFO 20908 --- [main] c.e.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.482 seconds (JVM running for 1.893)
+2019-05-29 10:49:40.955  INFO 22080 --- [main] c.e.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on 井鑫-YWB with PID 22080 (C:\Users\Administrator\IdeaProjects\spring-boot-demo\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\spring-boot-demo)
+2019-05-29 10:49:40.957 DEBUG 22080 --- [main] c.e.s.SpringBootDemoApplication          : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 10:49:40.958  INFO 22080 --- [main] c.e.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2019-05-29 10:49:42.138  INFO 22080 --- [main] c.e.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.493 seconds (JVM running for 1.872)
+2019-05-29 10:51:15.707  INFO 22840 --- [main] c.e.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on 井鑫-YWB with PID 22840 (C:\Users\Administrator\IdeaProjects\spring-boot-demo\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\spring-boot-demo)
+2019-05-29 10:51:15.708 DEBUG 22840 --- [main] c.e.s.SpringBootDemoApplication          : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 10:51:15.709  INFO 22840 --- [main] c.e.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2019-05-29 10:51:16.494  INFO 22840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2019-05-29 10:51:16.511  INFO 22840 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-29 10:51:16.511  INFO 22840 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-29 10:51:16.577  INFO 22840 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-29 10:51:16.577  INFO 22840 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 840 ms
+2019-05-29 10:51:16.730  INFO 22840 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-29 10:51:16.892  INFO 22840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2019-05-29 10:51:16.896  INFO 22840 --- [main] c.e.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.523 seconds (JVM running for 1.952)
+2019-05-29 10:58:48.239  INFO 20908 --- [main] c.e.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on 井鑫-YWB with PID 20908 (C:\Users\Administrator\IdeaProjects\spring-boot-demo\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\spring-boot-demo)
+2019-05-29 10:58:48.241 DEBUG 20908 --- [main] c.e.s.SpringBootDemoApplication          : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 10:58:48.241  INFO 20908 --- [main] c.e.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2019-05-29 10:58:49.176  INFO 20908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2019-05-29 10:58:49.194  INFO 20908 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2019-05-29 10:58:49.194  INFO 20908 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.19]
+2019-05-29 10:58:49.264  INFO 20908 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-05-29 10:58:49.264  INFO 20908 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 992 ms
+2019-05-29 10:58:49.416  INFO 20908 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2019-05-29 10:58:49.578  INFO 20908 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2019-05-29 10:58:49.580  INFO 20908 --- [main] c.e.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.612 seconds (JVM running for 2.007)
+2019-05-29 10:59:19.209  INFO 20908 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-05-29 10:59:19.209  INFO 20908 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2019-05-29 10:59:19.214  INFO 20908 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2019-05-29 10:59:19.236  WARN 20908 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingPathVariableException: Missing URI template variable 'username' for method parameter of type String]
+2019-05-29 11:00:22.526  INFO 2824 --- [main] c.e.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on 井鑫-YWB with PID 2824 (C:\Users\Administrator\IdeaProjects\spring-boot-demo\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\spring-boot-demo)
+2019-05-29 11:00:22.537 DEBUG 2824 --- [main] c.e.s.SpringBootDemoApplication          : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 11:00:22.538  INFO 2824 --- [main] c.e.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2019-05-29 11:00:23.696  INFO 2824 --- [main] c.e.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.541 seconds (JVM running for 1.963)
+2019-05-29 11:02:49.269  INFO 21552 --- [main] c.e.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on 井鑫-YWB with PID 21552 (C:\Users\Administrator\IdeaProjects\spring-boot-demo\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\spring-boot-demo)
+2019-05-29 11:02:49.271 DEBUG 21552 --- [main] c.e.s.SpringBootDemoApplication          : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 11:02:49.272  INFO 21552 --- [main] c.e.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2019-05-29 11:02:50.536  INFO 21552 --- [main] c.e.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.624 seconds (JVM running for 2.072)
+2019-05-29 11:04:00.339  INFO 17956 --- [main] c.e.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on 井鑫-YWB with PID 17956 (C:\Users\Administrator\IdeaProjects\spring-boot-demo\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\spring-boot-demo)
+2019-05-29 11:04:00.340 DEBUG 17956 --- [main] c.e.s.SpringBootDemoApplication          : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 11:04:00.341  INFO 17956 --- [main] c.e.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2019-05-29 11:04:01.370  WARN 17956 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'helloController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'reandom.uuid' in value "${reandom.uuid}"
+2019-05-29 11:04:01.388 ERROR 17956 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'helloController': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'reandom.uuid' in value "${reandom.uuid}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:380) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:843) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877) ~[spring-context-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549) ~[spring-context-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142) ~[spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248) [spring-boot-2.1.5.RELEASE.jar:2.1.5.RELEASE]
+	at com.example.springbootdemo.SpringBootDemoApplication.main(SpringBootDemoApplication.java:10) [classes/:na]
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'reandom.uuid' in value "${reandom.uuid}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:178) ~[spring-core-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124) ~[spring-core-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237) ~[spring-core-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211) ~[spring-core-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveNestedPlaceholders(AbstractPropertyResolver.java:228) ~[spring-core-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:88) ~[spring-core-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:62) ~[spring-core-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.core.env.AbstractEnvironment.getProperty(AbstractEnvironment.java:539) ~[spring-core-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$1.getProperty(PropertySourcesPlaceholderConfigurer.java:137) ~[spring-context-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer$1.getProperty(PropertySourcesPlaceholderConfigurer.java:133) ~[spring-context-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:85) ~[spring-core-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.core.env.PropertySourcesPropertyResolver.getPropertyAsRawString(PropertySourcesPropertyResolver.java:74) ~[spring-core-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:151) ~[spring-core-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:124) ~[spring-core-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:237) ~[spring-core-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:211) ~[spring-core-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:175) ~[spring-context-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:851) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1189) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1168) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374) ~[spring-beans-5.1.7.RELEASE.jar:5.1.7.RELEASE]
+	... 17 common frames omitted
+
+2019-05-29 11:04:35.004  INFO 18640 --- [main] c.e.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on 井鑫-YWB with PID 18640 (C:\Users\Administrator\IdeaProjects\spring-boot-demo\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\spring-boot-demo)
+2019-05-29 11:04:35.005 DEBUG 18640 --- [main] c.e.s.SpringBootDemoApplication          : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 11:04:35.006  INFO 18640 --- [main] c.e.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2019-05-29 11:04:36.190  INFO 18640 --- [main] c.e.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.5 seconds (JVM running for 1.904)
+2019-05-29 12:49:08.391  INFO 23572 --- [main] c.e.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on 井鑫-YWB with PID 23572 (C:\Users\Administrator\IdeaProjects\spring-boot-demo\target\classes started by Administrator in C:\Users\Administrator\IdeaProjects\spring-boot-demo)
+2019-05-29 12:49:08.393 DEBUG 23572 --- [main] c.e.s.SpringBootDemoApplication          : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2019-05-29 12:49:08.393  INFO 23572 --- [main] c.e.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
+2019-05-29 12:49:09.595  INFO 23572 --- [main] c.e.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.5 seconds (JVM running for 1.915)

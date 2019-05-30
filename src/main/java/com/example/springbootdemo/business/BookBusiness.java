@@ -3,6 +3,8 @@ package com.example.springbootdemo.business;
 import com.example.springbootdemo.bean.Book;
 import com.example.springbootdemo.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
@@ -62,6 +64,16 @@ public class BookBusiness {
     }
 
     /*
+     * 分页查询书单列表
+     * */
+
+    public Page<Book> findAllByPage(Pageable pageable){
+
+        return bookService.findAll(pageable);
+    }
+
+
+    /*
      * 自定义更新
      * */
 
@@ -77,5 +89,6 @@ public class BookBusiness {
     public int deleteByJPQL(long id){
         return bookService.deleteByJPQL(id);
     }
+
 
 }
