@@ -40,7 +40,7 @@
         th:class="${iterStat.even}? 'bg-success'"
         -->
 
-        <tr th:each="book,iterStat:${page1.content}">
+        <tr th:each="book,iterStat:${page.content}">
             <td th:text="${iterStat.count}">1</td>
             <td><a href="#" th:text="${book.name}" th:href="@{'/books/'+ ${book.id}}">书名</a></td>
             <!--
@@ -55,15 +55,16 @@
                 <span th:case="*">状态</span>
             </td>
             <td>
-                <a href="#" th:href="@{/books/{id}/input(id=${book.id})}">更新</a>
+                <a href="#" th:href="@{/books/{id}/input(id=${book.id})}">更新</a>&nbsp;
+                <a href="#" th:href="@{/books/{id}/delete(id=${book.id})}">删除</a>
             </td>
         </tr>
         </tbody>
     </table>
     <nav>
         <ul class="pager">
-            <li class="previous"><a href="#">上一页</a></li>
-            <li class="next"><a href="#">下一页</a></li>
+            <li class="previous"><a href="#" th:href="@{'/books?page='+${page.number-1}}" th:unless="${page.first}">上一页</a></li>
+            <li class="next"><a href="#" th:href="@{'/books?page='+${page.number+1}}" th:unless="${page.last}">下一页</a></li>
         </ul>
     </nav>
 </div>

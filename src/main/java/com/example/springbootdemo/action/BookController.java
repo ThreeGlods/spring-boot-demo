@@ -5,7 +5,9 @@ import com.example.springbootdemo.service.BookService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
+import org.springframework.data.web.PageableDefault;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -22,14 +24,11 @@ public class BookController {
     private BookService bookService;
 
     @GetMapping("/books")
-    public String list(@RequestParam(defaultValue = "0") int page,
-                       @RequestParam(defaultValue = "5")int size,
+    public String list(@PageableDefault(size = 5,sort = {"id"},direction = Sort.Direction.DESC) Pageable pageable,
                        Model model) {
         //sList<Book> books = bookService.findAll();
-        Sort sort = new Sort(Sort.Direction.DESC,"id");
-        Page<Book> page1 = bookService.findAll(PageRequest.of(page,size,sort));
+        Page<Book> page1 = bookService.findAll(pageable);
         model.addAttribute("page", page1);
-        System.out.println("这是什么："+page1.getContent());
         return "books";
     }
 
@@ -80,4 +79,13 @@ public class BookController {
      * POST---> redirect--->GET
      * */
 
+    /*
+    * 删除书单
+    * */
+    @GetMapping("/books/{id}/delete")
+    public String delete(@PathVariable long id,final RedirectAttributes attributes){
+        bookService.deleteById(id);
+        attributes.addFlashAttribute("message","删除成功");
+        return "redirect:/books";
+    }
 }
