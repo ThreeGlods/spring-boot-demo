@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import java.security.PublicKey;
 import java.util.List;
 
 @Controller
@@ -86,6 +87,11 @@ public class BookController {
     public String delete(@PathVariable long id,final RedirectAttributes attributes){
         bookService.deleteById(id);
         attributes.addFlashAttribute("message","删除成功");
+        return "redirect:/books";
+    }
+    @GetMapping("/")
+        public String login()    {
+
         return "redirect:/books";
     }
 }

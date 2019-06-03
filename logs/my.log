@@ -103,3 +103,9 @@ Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 're
 2019-05-29 12:49:08.393 DEBUG 23572 --- [main] c.e.s.SpringBootDemoApplication          : Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
 2019-05-29 12:49:08.393  INFO 23572 --- [main] c.e.s.SpringBootDemoApplication          : No active profile set, falling back to default profiles: default
 2019-05-29 12:49:09.595  INFO 23572 --- [main] c.e.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 1.5 seconds (JVM running for 1.915)
+2019-06-03 11:49:48.697  INFO 6016 --- [main] c.e.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on DESKTOP-DOG5RE8 with PID 6016 (C:\Users\admin\IdeaProjects\spring-boot-demo\target\classes started by admin in C:\Users\admin\IdeaProjects\spring-boot-demo)
+2019-06-03 11:49:48.700  INFO 6016 --- [main] c.e.s.SpringBootDemoApplication          : The following profiles are active: pro
+2019-06-03 11:49:53.413  INFO 6016 --- [main] c.e.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 5.21 seconds (JVM running for 6.789)
+2019-06-03 11:51:49.914  INFO 3784 --- [main] c.e.s.SpringBootDemoApplication          : Starting SpringBootDemoApplication on DESKTOP-DOG5RE8 with PID 3784 (C:\Users\admin\IdeaProjects\spring-boot-demo\target\classes started by admin in C:\Users\admin\IdeaProjects\spring-boot-demo)
+2019-06-03 11:51:49.917  INFO 3784 --- [main] c.e.s.SpringBootDemoApplication          : The following profiles are active: pro
+2019-06-03 11:51:54.570  INFO 3784 --- [main] c.e.s.SpringBootDemoApplication          : Started SpringBootDemoApplication in 5.16 seconds (JVM running for 6.77)
