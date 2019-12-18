@@ -22,6 +22,8 @@ public interface BookService extends JpaRepository<Book,Long> {
 
     List<Book> findByDescriptionContains(String description);// %like%查询
 
+
+
    // @Query("select b from Book b where length(b.name)> ?1")
     //List<Book> findByJPQL(int len);
     @Query(value = "select * from Book  where length(name)>?1",nativeQuery = true)

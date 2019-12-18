@@ -92,6 +92,6 @@ public class BookController {
     @GetMapping("/")
         public String login()    {
 
-        return "redirect:/books";
+        return "redirect:/uids";
     }
 }
