@@ -35,7 +35,7 @@ public class WeiBoShareUtil {
         //
         private static final class GetInstance {
             static final com.example.springbootdemo.Util.WeiBoShareUtil INSTANCE = new com.example.springbootdemo.Util.WeiBoShareUtil();
-            // 抖音字体编码
+            // 微博字体编码
             static final JSONObject mapCode2Name = JSONObject.parseObject("{\"0xe602\":\"num_\",\"0xe605\":\"num_3\",\"0xe606\":\"num_4\",\"0xe603\":\"num_1\",\"0xe604\":\"num_2\",\"0xe618\":\"num_\",\"0xe619\":\"num_4\",\"0xe60a\":\"num_8\",\"0xe60b\":\"num_9\",\"0xe60e\":\"num_\",\"0xe60f\":\"num_5\",\"0xe60c\":\"num_4\",\"0xe60d\":\"num_1\",\"0xe612\":\"num_6\",\"0xe613\":\"num_8\",\"0xe610\":\"num_3\",\"0xe611\":\"num_2\",\"0xe616\":\"num_1\",\"0xe617\":\"num_3\",\"0xe614\":\"num_9\",\"0xe615\":\"num_7\",\"0xe609\":\"num_7\",\"0xe607\":\"num_5\",\"0xe608\":\"num_6\",\"0xe61b\":\"num_5\",\"0xe61c\":\"num_8\",\"0xe61a\":\"num_2\",\"0xe61f\":\"num_6\",\"0xe61d\":\"num_9\",\"0xe61e\":\"num_7\"}");
 
             // 对应微博字体编码的数字
@@ -53,8 +53,8 @@ public class WeiBoShareUtil {
 
 
             String shareInt = "https://huodong.weibo.com/netchina2019/people";
-            shareUrl = new TestJsoup().ip(shareInt);
-            //shareUrl = getHTMLSource("https://huodong.weibo.com/netchina2019/people");
+            //shareUrl = new TestJsoup().ip(shareInt);
+            shareUrl = getHTMLSource("https://huodong.weibo.com/netchina2019/people");
 
             //       https://www.iesdouyin.com/share/user/
             //		System.out.println("html -> "+shareUrl);
@@ -85,11 +85,11 @@ public class WeiBoShareUtil {
                     String votes = ele.select("[class=num]").get(0).text();
 
                     UserModel userModel = new UserModel();
-                    userModel.setNum(Integer.valueOf(num));
+                    userModel.setId(Integer.valueOf(num));
                     userModel.setName(name);
                     userModel.setVotes(votes);
                     models.add(userModel);
-                   data.put("Wb",models);
+                    data.put("Wb",models);
                     i++;
                 }
             } catch (Exception e) {

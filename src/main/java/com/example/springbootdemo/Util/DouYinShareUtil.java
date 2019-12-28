@@ -45,8 +45,8 @@ public class DouYinShareUtil {
     public JSONObject getDouyinInfo( String shareUrl ) {
 
         String shareInt = "https://www.iesdouyin.com/share/user/"+shareUrl+"/";
-        shareUrl = new TestJsoup().ip(shareInt);
-        //shareUrl = getHTMLSource("https://www.baidu.com");
+        //shareUrl = new TestJsoup().ip(shareInt);
+        shareUrl = getHTMLSource(shareInt);
 
  //       https://www.iesdouyin.com/share/user/
 //		System.out.println("html -> "+shareUrl);

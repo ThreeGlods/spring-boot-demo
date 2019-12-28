@@ -9,5 +9,4 @@ public interface UserService  extends JpaRepository<User,Long> {
 
     Page<User> findAll(Pageable pageable);
 
-
 }

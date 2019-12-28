@@ -10,7 +10,7 @@ public class Uid {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    private long id;
 
     private String b;
     private String c;

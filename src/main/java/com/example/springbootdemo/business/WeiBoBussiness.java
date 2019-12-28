@@ -5,6 +5,8 @@ import com.example.springbootdemo.service.WeiBoService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class WeiBoBussiness {
     @Autowired
@@ -12,5 +14,9 @@ public class WeiBoBussiness {
 
     public UserModel save(UserModel userModel){
         return weiBoService.save(userModel);
+    }
+
+    public List<UserModel> findAll(){
+        return weiBoService.findAll();
     }
 }

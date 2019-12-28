@@ -7,11 +7,13 @@ import javax.persistence.Id;
 public class UserModel {
 
     @Id
-    private int num;
+    private int id;
 
     private String name;
 
     private String votes;
+
+    private long discrepancy;
 
     public String getName() {
         return name;
@@ -21,19 +23,28 @@ public class UserModel {
         this.name = name;
     }
 
-    public int getNum() {
-        return num;
+    public int getId() {
+        return id;
     }
 
-    public void setNum(int num) {
-        this.num = num;
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getVotes() {
         return votes;
     }
 
+
     public void setVotes(String votes) {
         this.votes = votes;
+    }
+
+    public long getDiscrepancy() {
+        return discrepancy;
+    }
+
+    public void setDiscrepancy(long discrepancy) {
+        this.discrepancy = discrepancy;
     }
 }

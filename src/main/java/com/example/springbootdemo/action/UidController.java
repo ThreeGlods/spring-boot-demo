@@ -45,7 +45,7 @@ public class UidController {
         for (int j = 1; j < 101; j++) {
             for (int i =1;i<num+1;i++){
                 Uid uid = uidService.findById(i);
-                String a = uid.getK();
+                String a = uid.getD();
                 JSONObject jsonObject = null;
                 try {
                     jsonObject = DouYinShareUtil.instance().getDouyinInfo(a);
@@ -62,7 +62,7 @@ public class UidController {
                         user.setSign(jsonObject.getString("sign"));
                         user.setWorks(jsonObject.getString("works"));
                         userService.save(user);
-                        Thread.sleep(10);
+                        Thread.sleep(1000);
                         System.out.println("----第"+i+"条数据----"+"共"+num+"条数据----第"+j+"次循环----");
                     }
                 }catch (Exception e){

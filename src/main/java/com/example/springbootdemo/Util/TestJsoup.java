@@ -66,7 +66,7 @@ public class TestJsoup {
 		try {
 
 			//Proxy-Authorization
-			Connection.Response res = Jsoup.connect(url).maxBodySize(Integer.MAX_VALUE).header("Proxy-Authorization",getAuthHeader()).proxy(proxyIP,proxyPort).ignoreContentType(true).userAgent("Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9.2.15)").followRedirects(false).validateTLSCertificates(false).timeout(10000).method(Connection.Method.GET).execute();
+			Connection.Response res = Jsoup.connect(url).maxBodySize(Integer.MAX_VALUE).header("Proxy-Authorization",getAuthHeader()).proxy(proxyIP,proxyPort).ignoreContentType(true).userAgent("Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9.2.15)").followRedirects(false).validateTLSCertificates(false).timeout(30000).method(Connection.Method.GET).execute();
 			String carStr = new String(res.bodyAsBytes());
             return carStr;
 
